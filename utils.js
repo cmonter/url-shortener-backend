@@ -2,6 +2,7 @@ const characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ01234567
 const SIZE = 6;
 
 const generateshortUrL = url => {
+  console.log("Generating short URL");
   let shortUrl = '';
   for(let i = 0; i<SIZE; i++){
     let randomIdx = Math.floor(Math.random() * characters.length);
